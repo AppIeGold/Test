@@ -16,24 +16,18 @@
 <p>Чем строгое сравнение отличается от обычного? - строгое сравнение не сравнивает разные типы</p>
 
 <p> Какой будет результат этих сравнений:
-        console.log(null === undefined); //разные типы
-        console.log(null == undefined); //Равны друг другу и не равны другим значениям
-        console.log(null > undefined); 
-        console.log(null >= undefined);
-        console.log(null < undefined);
-        console.log(null <= undefined);
-        console.log(null > 0);
-        console.log(null >= 0); //сравнения преобразуют null в число, рассматривая его как 0
-        console.log(null < 0);
-        console.log(null <= 0); //сравнения преобразуют null в число, рассматривая его как 0
-        console.log(null === 0); //разные типы
-        console.log(null == 0); //null равен только undefined
-        console.log(undefined > 0 ); // undefined не сравнимо с другими значениями
-        console.log(undefined < 0 ); // undefined не сравнимо с другими значениями
-        console.log(undefined == 0 ); //undefined равен только null</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+        <n>console.log(null === undefined); //разные типы</n>
+        <n>console.log(null == undefined); //Равны друг другу и не равны другим значениям</n>
+        <n>console.log(null > undefined);</n>
+        <n>console.log(null >= undefined);</n>
+        <n>console.log(null < undefined);</n>
+        <n>console.log(null <= undefined);</n>
+        <n>console.log(null > 0);</n>
+        <n>console.log(null >= 0); //сравнения преобразуют null в число, рассматривая его как 0</n>
+        <n>console.log(null < 0);</n>
+        <n>console.log(null <= 0); //сравнения преобразуют null в число, рассматривая его как 0</n>
+        <n>console.log(null === 0); //разные типы</n>
+        <n>console.log(null == 0); //null равен только undefined</n>
+        <n>console.log(undefined > 0 ); // undefined не сравнимо с другими значениями</n>
+        <n>console.log(undefined < 0 ); // undefined не сравнимо с другими значениями</n>
+        <n>console.log(undefined == 0 ); //undefined равен только null</p>
