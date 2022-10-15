@@ -1,21 +1,22 @@
+let tru = "Верно";
 function trught() {
-    document.getElementById("==").innerHTML = "Верно";
+    document.getElementById("==").innerHTML =tru
     
 }
 function trught1() {
-    document.getElementById("!=").innerHTML = "Верно";
+    document.getElementById("!=").innerHTML =tru
     
 }
 function trught2() {
-    document.getElementById("===").innerHTML = "Верно";
+    document.getElementById("===").innerHTML =tru
     
 }
 function trught3() {
-    document.getElementById("!==").innerHTML = "Верно";
+    document.getElementById("!==").innerHTML =tru
     
 }
 function trught4() {
-    document.getElementById("undefined").innerHTML = "Верно, тип данных присваивающийся переменной не имеющей значения, то есть переменная не определена .";
+    document.getElementById("undefined").innerHTML = "Верно, тип данных присваивающийся переменной не имеющей значения, то есть переменная не определена.";
     
 }
 function trught5() {
