@@ -1,4 +1,5 @@
 let folse = "не верно";
+let a =0;
 function lie() {
     document.getElementById("==").innerHTML = folse;
 }
@@ -22,4 +23,16 @@ function lie6() {
 }
 function lie7() {
     document.getElementById("Boolean").innerHTML = folse;
+}
+
+
+
+
+function yes() {
+    document.getElementById("point").innerHTML = a += 1;
+    console.log(a);
+}
+function not() {
+    document.getElementById("point").innerHTML = a -= 1;
+    console.log(a);
 }
