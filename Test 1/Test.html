@@ -1,144 +1,204 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Тест</title>
+        <title>Тест html</title>       
+        <script src="scripts/functions.js"></script>
     </head>
 
-    <body style="background-image:url('background.jpg'); color: whitesmoke; font-size: larger;">
-        <h1>Терминология</h1>
+    <body style="background-image:url('background.jpg'); margin-left: 10cm; margin-right: 10cm; color: whitesmoke; font-size: larger;">
         
         <h2>Необходимо дать определение следующим терминам:</h2>
-        
-        <h3>1.html</h3>
-        <p id="html"></p>
-        <button type="button" onclick="html1()">Ответ</button>
-        <button type="button" onclick="document.getElementById('html').innerHTML = ''">Закрыть</button>
-        <script src="scripts/html1.js"></script>
-        
-        <h3>2.head</h3>
-        <p id="head"></p>
-        <button type="button" onclick="headF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('head').innerHTML = ''">Закрыть</button>
-        <script src="scripts/head.js"></script>
 
-        <h3>3.title</h3>
-        <p id="title"></p>
-        <button type="button" onclick="titleF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('title').innerHTML = ''">Закрыть</button>
-        <script src="scripts/title.js"></script>
+        <ol>
+            <li><h4>html</h4></li>
+            <p id="html"></p>
+            <button type="button" onclick="html1()">Ответ</button>
+            <button type="button" onclick="document.getElementById('html').innerHTML = ''">Закрыть</button>
+        </ol>
 
-        <h3>4.body</h3>
-        <p id="body"></p>
-        <button type="button" onclick="bodyF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('body').innerHTML = ''">Закрыть</button>
-        <script src="scripts/body.js"></script>
+        <ul>
+            <li><h3>Metadata</h3>
+                <ol>
+                    <li><h4>head</h4></li>
+                    <p id="head"></p>
+                    <button type="button" onclick="headF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('head').innerHTML = ''">Закрыть</button>
 
-        <h3>5.getElementById</h3>
-        <p id="getElementById"></p>
-        <button type="button" onclick="getElementByIdF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('getElementById').innerHTML = ''">Закрыть</button>
-        <script src="scripts/getElementById.js"></script>
+                    <li><h4>title</h4></li>
+                    <p id="title"></p>
+                    <button type="button" onclick="titleF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('title').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
+            
+            <li><h3>Content sectioning</h3>
+                <ol>
+                    <li><h4>body</h4></li>
+                    <p id="body"></p>
+                    <button type="button" onclick="bodyF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('body').innerHTML = ''">Закрыть</button>
+                    
+                    <li><h4>h1-h6</h4></li>
+                    <p id="h1-h6"></p>
+                    <button type="button" onclick="h1h6F()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('h1-h6').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>6.innerHTML</h3>
-        <p id="innerHTML"></p>
-        <button type="button" onclick="innerHTMLF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('innerHTML').innerHTML = ''">Закрыть</button>
-        <script src="scripts/innerHTML.js"></script>
+            <li><h3>Text content</h3>
+                <ol>
+                    <li><h4>div</h4></li>
+                    <p id="div"></p>
+                    <button type="button" onclick="divF()">Ответ</button>
+                    <button type="button" onclick="getElementById('div').innerHTML = ''">Закрыть</button>
 
-        <h3>7.write</h3>
-        <p id="write"></p>
-        <button type="button" onclick="writeF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('write').innerHTML = ''">Закрыть</button>
-        <script src="scripts/write.js"></script>
+                    <li><h4>hr</h4></li>
+                    <p id="hr"></p>
+                    <button type="button" onclick="hrF()">Ответ</button>
+                    <button type="button" onclick="getElementById('hr').innerHTML = ''">Закрыть</button>
 
-        <h3>8.alert</h3>
-        <p id="alert"></p>
-        <button type="button" onclick="alertF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('alert').innerHTML = ''">Закрыть</button>
-        <script src="scripts/alert.js"></script>
+                    <li><h4>ol и ul</h4></li>
+                    <p id="olul"></p>
+                    <button type="button" onclick="olulF()">Ответ</button>
+                    <button type="button" onclick="getElementById('olul').innerHTML = ''">Закрыть</button>
 
-        <h3>9.consol.log</h3>
-        <p id="consol.log"></p>
-        <button type="button" onclick="consollogF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('consol.log').innerHTML = ''">Закрыть</button>
-        <script src="scripts/consol.log.js"></script>
+                    <li><h4>li</h4></li>
+                    <p id="li"></p>
+                    <button type="button" onclick="liF()">Ответ</button>
+                    <button type="button" onclick="getElementById('li').innerHTML = ''">Закрыть</button>
 
-        <h3>10.src</h3>
-        <p id="src"></p>
-        <button type="button" onclick="srcF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('src').innerHTML = ''">Закрыть</button>
-        <script src="scripts/src.js"></script>
+                    <li><h4>p</h4></li>
+                    <p id="p"></p>
+                    <button type="button" onclick="pF()">Ответ</button>
+                    <button type="button" onclick="getElementById('p').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>12.button</h3>
-        <p id="button"></p>
-        <button type="button" onclick="buttonF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('button').innerHTML = ''">Закрыть</button>
-        <script src="scripts/button.js"></script>
+            <li><h3>Built-in text semantics</h3>
+                <ol>
+                    <li><h4>a</h4></li>
+                    <p id="a"></p>
+                    <button type="button" onclick="aF()">Ответ</button>
+                    <button type="button" onclick="getElementById('a').innerHTML = ''">Закрыть</button>
 
-        <h3>13.img</h3>
-        <p id="img"></p>
-        <button type="button" onclick="imgF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('img').innerHTML = ''">Закрыть</button>
-        <script src="scripts/img.js"></script>
+                    <li><h4>b</h4></li>
+                    <p id="b"></p>
+                    <button type="button" onclick="bF()">Ответ</button>
+                    <button type="button" onclick="getElementById('b').innerHTML = ''">Закрыть</button>
 
-        <h3>14.Замещаемый элемент</h3>
-        <p id="Замещаемый элемент"></p>
-        <button type="button" onclick="ReplacementF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('Замещаемый элемент').innerHTML = ''">Закрыть</button>
-        <script src="scripts/Замещаемый элемент.js"></script>
+                    <li><h4>br</h4></li>
+                    <p id="br"></p>
+                    <button type="button" onclick="brF()">Ответ</button>
+                    <button type="button" onclick="getElementById('br').innerHTML = ''">Закрыть</button>
 
-        <h3>15.h1-h6</h3>
-        <p id="h1-h6"></p>
-        <button type="button" onclick="h1h6F()">Ответ</button>
-        <button type="button" onclick="document.getElementById('h1-h6').innerHTML = ''">Закрыть</button>
-        <script src="scripts/h1-h6.js"></script>
+                    <li><h4>em</h4></li>
+                    <p id="em"></p>
+                    <button type="button" onclick="emF()">Ответ</button>
+                    <button type="button" onclick="getElementById('em').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>16.font-size</h3>
-        <p id="font-size"></p>
-        <button type="button" onclick="fontsizeF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('font-size').innerHTML = ''">Закрыть</button>
-        <script src="scripts/font-size.js"></script>
+            <li><h3>Images and multimedia</h3>
+                <ol>
+                    <li><h4>img</h4></li>
+                    <p id="img"></p>
+                    <button type="button" onclick="imgF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('img').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>17.style</h3>
-        <p id="style"></p>
-        <button type="button" onclick="styleF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('style').innerHTML = ''">Закрыть</button>
-        <script src="scripts/style.js"></script>
+            <li><h3>Scripting</h3>
+                <ol>
+                    <li><h4>script</h4></li>
+                    <p id="script"></p>
+                    <button type="button" onclick="scriptF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('script').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>18.display</h3>
-        <p id="display"></p>
-        <button type="button" onclick="displayF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('display').innerHTML = ''">Закрыть</button>
-        <script src="scripts/display.js"></script>
+            <li>Forms
+                <ol>
+                    <li><h4>button</h4></li>
+                    <p id="button"></p>
+                    <button type="button" onclick="buttonF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('button').innerHTML = ''">Закрыть</button>
+                </ol>
+            </li>
 
-        <h3>19.script</h3>
-        <p id="script"></p>
-        <button type="button" onclick="scriptF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('script').innerHTML = ''">Закрыть</button>
-        <script src="scripts/script.js"></script>
+                    
+                    <li><h4>getElementById</h4></li>
+                    <p id="getElementById"></p>
+                    <button type="button" onclick="getElementByIdF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('getElementById').innerHTML = ''">Закрыть</button>
 
-        <h3>20.var</h3>
-        <p id="var"></p>
-        <button type="button" onclick="varF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('var').innerHTML = ''">Закрыть</button>
-        <script src="scripts/var.js"></script>
+                    <li><h4>innerHTML</h4></li>
+                    <p id="innerHTML"></p>
+                    <button type="button" onclick="innerHTMLF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('innerHTML').innerHTML = ''">Закрыть</button>
 
-        <h3>21.Операнд</h3>
-        <p id="Операнд"></p>
-        <button type="button" onclick="ОперандF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('Операнд').innerHTML = ''">Закрыть</button>
-        <script src="scripts/Операнд.js"></script>
+                    <li><h4>write</h4></li>
+                    <p id="write"></p>
+                    <button type="button" onclick="writeF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('write').innerHTML = ''">Закрыть</button>
 
-        <h3>22.Унарный оператор</h3>
-        <p id="Унарный оператор"></p>
-        <button type="button" onclick="YoperatorF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('Унарный оператор').innerHTML = ''">Закрыть</button>
-        <script src="scripts/Унарный оператор.js"></script>
+                    <li><h4>alert</h4></li>
+                    <p id="alert"></p>
+                    <button type="button" onclick="alertF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('alert').innerHTML = ''">Закрыть</button>
 
-        <h3>23.Бинарный оператор</h3>
-        <p id="Бинарный оператор"></p>
-        <button type="button" onclick="BoperatorF()">Ответ</button>
-        <button type="button" onclick="document.getElementById('Бинарный оператор').innerHTML = ''">Закрыть</button>
-        <script src="scripts/Бинарный оператор.js"></script>
+                    <li><h4>consol.log</h4></li>
+                    <p id="consol.log"></p>
+                    <button type="button" onclick="consollogF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('consol.log').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>src</h4></li>
+                    <p id="src"></p>
+                    <button type="button" onclick="srcF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('src').innerHTML = ''">Закрыть</button>
+
+                    
+                    
+                    <li><h4>Замещаемый элемент</h4></li>
+                    <p id="Замещаемый элемент"></p>
+                    <button type="button" onclick="ReplacementF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('Замещаемый элемент').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>font-size</h4></li>
+                    <p id="font-size"></p>
+                    <button type="button" onclick="fontsizeF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('font-size').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>style</h4></li>
+                    <p id="style"></p>
+                    <button type="button" onclick="styleF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('style').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>display</h4></li>
+                    <p id="display"></p>
+                    <button type="button" onclick="displayF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('display').innerHTML = ''">Закрыть</button>
+
+                    
+                    <li><h4>var</h4></li>
+                    <p id="var"></p>
+                    <button type="button" onclick="varF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('var').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>Операнд</h4></li>
+                    <p id="Операнд"></p>
+                    <button type="button" onclick="ОперандF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('Операнд').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>Унарный оператор</h4></li>
+                    <p id="Унарный оператор"></p>
+                    <button type="button" onclick="YoperatorF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('Унарный оператор').innerHTML = ''">Закрыть</button>
+
+                    <li><h4>Бинарный оператор</h4></li>
+                    <p id="Бинарный оператор"></p>
+                    <button type="button" onclick="BoperatorF()">Ответ</button>
+                    <button type="button" onclick="document.getElementById('Бинарный оператор').innerHTML = ''">Закрыть</button>
+        </ul>
+
     </body>
 </html>

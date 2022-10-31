@@ -29,10 +29,12 @@ function lie7() {
 
 
 function yes() {
-    document.getElementById("point").innerHTML = a += 1;
+    document.getElementById("point").innerHTML = (a += 1);
     console.log(a);
 }
 function not() {
-    document.getElementById("point").innerHTML = a -= 1;
+    if (a > 0) {
+    document.getElementById("point").innerHTML = (a -= 1);
+    }
     console.log(a);
 }
