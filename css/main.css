@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(22, 20, 20);
+    color: rgba(209, 209, 209, 0.918);
+    font-size: medium;
+    font-family: arial;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+button {
+    padding-inline: 15px;    
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    transition: background 9999999s;
+}
+
+button:active {
+    background: rgb(200, 255, 0);
+    transition: background 0s;
+  }
